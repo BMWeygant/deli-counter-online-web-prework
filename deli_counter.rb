@@ -13,9 +13,8 @@ end
 def take_a_number(array, string)
   current_line = ""
   array.each_with_index do |name, index|
-  puts  current_line << "Welcome #{name}. You are number #{index} in line."
 end
-
+  puts  current_line << "Welcome #{name}. You are number #{index} in line."
 end
 
 def now_serving(array)
