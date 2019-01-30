@@ -10,8 +10,9 @@ puts current_line
   end
 end
 
-def take_a_number(array, string)
-  array << string
+def take_a_number(array, name)
+  array << name
+    puts "Welcome #{name}. You are number #{array.length} in line."
 end
 
 def now_serving(array)
