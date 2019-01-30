@@ -13,7 +13,7 @@ end
 def take_a_number(array, string)
   current_line = ""
   array.each_with_index do |name, index|
-    current_line << "Welcome #{name}. You are number #{index} in line."
+  puts  current_line << "Welcome #{name}. You are number #{index} in line."
 end
 
 end
