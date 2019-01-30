@@ -11,10 +11,7 @@ puts current_line
 end
 
 def take_a_number(array, string)
-  current_line = ""
-  array.each_with_index do |name, index|
-end
-  puts  current_line << "Welcome #{name}. You are number #{index} in line."
+  array << string
 end
 
 def now_serving(array)
